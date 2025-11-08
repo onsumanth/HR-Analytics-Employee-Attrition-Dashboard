@@ -1,98 +1,87 @@
 # 📊 HR Analytics Dashboard Project
 
 ## 📌 Project Overview
-This project focuses on building **multiple HR Analytics dashboards** using **Excel, Power BI, Tableau**, and validating all calculated KPIs with **SQL queries**.
-The approach mirrors **real-world industry practices**, where data analysts cross-check metrics across tools to ensure accuracy, reliability, and consistency of insights.
+This project showcases the creation of **comprehensive HR Analytics dashboards** using **Excel, Power BI, and Tableau**, along with **SQL-based KPI validation**.  
+It replicates real-world analytics workflows where insights are verified across multiple tools to ensure accuracy, reliability, and data consistency.
 
-***
+---
 
 ## 🏢 Problem Statement
-The HR department struggles with:
-* Lack of clear performance indicators (KPIs) to monitor workforce health.
-* Difficulty in tracking attrition, workforce demographics, and employee satisfaction.
-* No standardized dashboards for leadership to make **data-driven HR decisions**.
+The HR department faced challenges such as:
+- Lack of defined KPIs to evaluate workforce health and performance  
+- Difficulty tracking attrition, demographics, and satisfaction levels  
+- Absence of unified dashboards for management-level decision-making  
 
-This project solves these gaps by developing **comprehensive HR dashboards** with validated metrics.
+This project addresses these issues by delivering **interactive dashboards** and **data validation queries** that enable data-driven HR insights.
 
- ***
-
+---
 
 ## 🎯 Key KPIs Implemented
-* **Employee Count** – Total workforce size.
-* **Attrition Count** – Number of employees leaving the organization.
-* **Attrition Rate (%)** – Proportion of employees leaving compared to total workforce.
-* **Active Employees** – Distinguishing active vs. inactive employees.
-* **Average Age** – Workforce demographics analysis.
+- **Employee Count** – Total number of employees in the organization  
+- **Attrition Count** – Employees who left the organization  
+- **Attrition Rate (%)** – Ratio of employees leaving vs. total workforce  
+- **Active Employees** – Count of currently active employees  
+- **Average Age** – Average employee age for demographic analysis  
 
-***
+---
 
 ## 📈 Dashboard Requirements
-The dashboards visualize multiple perspectives of HR data:
-1.  **Attrition by Gender** – Identify gender-based attrition patterns.
-2.  **Department-wise Attrition** – Highlight departments with high turnover.
-3.  **Employees by Age Group** – Assess workforce demographics.
-4.  **Job Satisfaction Ratings** – Track employee engagement levels.
-5.  **Attrition by Education Field** – Spot education-related attrition trends.
-6.  **Attrition by Gender & Age Group** – Combined insights to tailor retention.
+The dashboards visualize HR data across different perspectives:
+1. **Attrition by Gender** – Gender-based attrition comparison  
+2. **Department-wise Attrition** – Identify departments with higher turnover  
+3. **Employees by Age Group** – Analyze workforce demographics  
+4. **Job Satisfaction Ratings** – Measure employee engagement  
+5. **Attrition by Education Field** – Track education-based attrition trends  
+6. **Attrition by Gender & Age Group** – Combined insights for retention strategies  
 
-***
+---
 
 ## 🛠️ Tools & Technologies
-* **SQL** – Data validation and metric cross-checking.
-* **Excel** – Quick exploratory dashboards and pivot analysis.
-* **Power BI** – Interactive and scalable HR dashboards.
-* **Tableau** – Advanced visual storytelling and drill-down analytics.
+- **SQL** – For KPI validation and cross-checking data accuracy  
+- **Excel** – For quick exploratory dashboards and pivot analyses  
+- **Power BI** – For interactive dashboards with dynamic visuals  
+- **Tableau** – For storytelling dashboards and deeper data exploration  
 
-***
+---
 
 ## 📂 Project Workflow
-1.  **Data Collection & Cleaning** – Import raw HR dataset, preprocess missing values.
-2.  **SQL Validation** – Write SQL queries to calculate KPIs and cross-check against dashboard outputs.
-3.  **Dashboard Development**
-    * *Excel:* Pivot tables and charts for initial exploration.
-    * *Power BI:* KPI tracking dashboards with filters & slicers.
-    * *Tableau:* Advanced visual storytelling and department-level drill-downs.
-4.  **Insights & Reporting** – Compare attrition patterns, workforce demographics, and job satisfaction to provide actionable recommendations.
+1. **Data Collection & Cleaning** – Imported and cleaned HR dataset to remove null and inconsistent values.  
+2. **SQL Validation** – Wrote SQL queries to calculate and verify key performance indicators.  
+3. **Dashboard Development** –  
+   - *Excel:* Built quick dashboards using pivot tables and charts.  
+   - *Power BI:* Developed dynamic dashboards with KPIs and slicers.  
+   - *Tableau:* Designed visual storytelling dashboards with drill-down insights.  
+4. **Insights & Reporting** – Analyzed attrition patterns, demographics, and job satisfaction to derive actionable recommendations.
 
-***
+---
 
 ## 📊 Dashboards
-🔹 **Excel Dashboard** – Quick analysis using pivot tables and charts.
+
+### 🔹 Excel Dashboard  
+Quick exploratory analysis using pivot tables and charts.  
 <img width="1144" height="666" alt="image" src="https://github.com/user-attachments/assets/fd7472fb-c1f4-47bf-ab74-8f8a7a08f6e9" />
 
+---
 
-
-
-🔹 **Power BI Dashboard** – Fully interactive dashboard with slicers and KPI cards.
+### 🔹 Power BI Dashboard  
+Interactive and visually rich dashboard with KPI cards, slicers, and dynamic filters.  
 <img width="1310" height="751" alt="image" src="https://github.com/user-attachments/assets/2a9612a1-c88c-4650-ad71-c9c7e2563b18" />
 
+---
 
-
-
-
-
-
-
-
-
-
-
-🔹 **Tableau Dashboard** – Storytelling-based dashboard with drill-down analytics.
+### 🔹 Tableau Dashboard  
+Storytelling-based dashboard providing detailed drill-down analytics.  
 <img width="1389" height="778" alt="image" src="https://github.com/user-attachments/assets/f25f1f02-5253-4f78-a2a9-817be1745061" />
 
+> *(All screenshots and dashboard files are included in this repository.)*
 
-
-
-
-> *(Screenshots and dashboard files are included in the repository.)*
-
-***
+---
 
 ## 💾 SQL Validation Queries
-All KPIs and dashboard visualizations were **validated using SQL queries** executed in PostgreSQL.
-Below are screenshots of the queries used for validation:
+All KPIs and visual metrics were validated using **SQL queries** in PostgreSQL to ensure data accuracy and consistency.  
+Below are sample query screenshots used for validation:
 
-| KPI and Charts | SQL Query Screenshot |
+| KPI / Chart | SQL Query Screenshot |
 | :--- | :--- |
 | Total Employee Count | ![Employee Count Query](https://github.com/user-attachments/assets/eb49d6ba-5b4e-4f23-8efc-d8f0c857240f) |
 | Attrition Count | ![Attrition Count Query](https://github.com/user-attachments/assets/b4075b9b-c2e4-4cf3-9028-fc5bce40a373) |
@@ -106,5 +95,14 @@ Below are screenshots of the queries used for validation:
 | Education Field Attrition | ![Education Field Query](https://github.com/user-attachments/assets/6fefc9f7-be55-4686-910f-f9bb9f2c7467) |
 | Attrition by Age & Gender | ![Age & Gender Attrition Query](https://github.com/user-attachments/assets/041bb7f3-b0bc-4625-92d9-c9b6ef9a6535) |
 
+---
 
-***
+## 📥 Download Power BI File
+You can download the Power BI dashboard file directly from Google Drive 👇  
+👉 [Download Power BI File (Google Drive)](https://drive.google.com/file/d/1X6Dsz10bESB8ReKXdU7iWhWBwCq_Maqo/view?usp=drive_link)
+
+---
+
+## ⭐ About
+Created with 💡 by [@onsumanth](https://github.com/onsumanth)  
+This project demonstrates an **end-to-end HR Analytics solution**, combining data cleaning, SQL validation, visualization, and insight generation through multiple BI tools.
